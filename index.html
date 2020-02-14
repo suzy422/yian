@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset ="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!--호환성보기 설정시 깨짐현상 방지-->
+<title>대전보건대학교 이안요양원 홈페이지 방문을 환영합니다.</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"> 
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/common.js"></script>
+<script type="text/javascript">
+      $(window).ready(function(){
+         $("#header").load("./inc/header.html")
+         $("#footer").load("./inc/footer.html");
+      });
+</script>
+<!--script src="js/includeHTML.js"></script-->
+<!--[if lt IE 9]>
+<script src="../js/html5shiv.min.js</script>
+<script src="../js/respond.js"></script>
+<![endif]-->
+</head>
+<body>
+<div id="wrap">
+    <header id="header">
+    </header>
+    <!--script>includeHTML();</script>
+    <div include-html="./inc/header.html"></div-->
+    <section id="container">
+       <div class="content-wrap">
+           <div class="visual-img">
+               <ul>
+                   <li><img src="./images/visual_copy.png" alt="나의 삶을 이야기하는 곳 참 사랑의 나눔을 기본으로 한 돌봄을 수행하여 어르신들이 보람되고 더 가치있는 희망의삶을 가질 수 있도록 최선을 다 할 것입니다." style="max-width:100%"/></li>
+                   <li><img src="./images/people.png" alt="노부부 이미지" style="max-width:100%"/></li>
+               </ul>
+           </div>
+           <div class="bn-wrap">
+                <ul>
+                    <li><a href="./sub/sub1_1.html"><img src="./images/main_img1.jpg" alt=""/></a></li>
+                    <li><a href="./sub/sub2_1.html"><img src="./images/main_img2.jpg" alt=""></a></li>
+                    <li><a href="./sub/sub3_1.html"><img src="./images/main_img3.jpg" alt=""></a></li>
+                </ul>
+                <!--a href="./sub/sub1_1.html"><img src="./images/main_img3.jpg" alt=""></a-->
+           </div>
+       </div>
+    </section>
+    <footer id="footer">
+    </footer>
+</div>
+</body>
+</html>
